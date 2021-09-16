@@ -17,15 +17,18 @@
           <div class="col-lg-7 p-3 p-lg-5 pt-lg-3">
             <h2 class="display-6 fw-bold lh-1">Welcome to</h2>
             <h1 class="display-4 fw-bold lh-1">Helius</h1>
-            <h4 class="display-8 lh-1 text-secondary">A Design Thinking Techniques recommendation System</h4>
-            <p class="lead">Helius is a DT techniques recommendation system. It aims to recommend Design Thinking techniques 
-                for helping IT professionals to choose a suitable set of techniques based on the context of the project, 
-                on multidisciplinary team characteristics, and on previous experiences in using DT techniques by professionals.</p>
+            <h4 class="display-8 lh-1 text-secondary">A Design Thinking Techniques Recommendation System</h4>
+            <p class="lead">Helius is a DT techniques recommendation system that aims to support IT professionals on the selection of DT techniques for software development.</p>
             <div class="d-grid gap-2 d-md-flex justify-content-md-start mb-4 mb-lg-3">
               <a href="https://rparizidoc.gitlab.io/heliussite/" class="btn btn-primary btn-lg px-4 me-md-2 fw-bold" style="background-color: #2ebae1; border: white;" 
                         role="button">See more!</a>
               <a class="btn btn-lg px-4 fw-bold" style="background-color: #d62e90; border: #d62e90; color: white;" 
-                        role="button" onclick="openAlert()">Open Helius</a>
+                        role="button" onclick="openHelius1()">Helius v1</a>
+              <!-- <a class="btn btn-lg px-4 fw-bold" style="background-color: #d62e90; border: #d62e90; color: white;" 
+                        role="button" onclick="openHelius2()">Helius v2</a> -->
+                        <!-- <a class="btn btn-md btn-success android-btn" href="#">
+                          <img width="20%" class="pull-left" src="img/google_play_soon.png"><div class="btn-text"></div></a> -->
+
             </div>
           </div>
           <div class="col-lg-4 offset-lg-1 p-0">
@@ -56,7 +59,7 @@
     //     swal("Helius is under development!", "You will access a pre-launch version of the tool.\nTherefore, some features may not be available yet.", "warning");
     // });
 
-    function openAlert(){
+    function openHelius1(){
       swal({
   title: "Helius is under development!",
   text: "You are using a pre-launch version of the tool.\nSome features may not be available yet.",
@@ -67,6 +70,23 @@
 .then((willDelete) => {
   if (willDelete) {
     window.location.href='https://heliustool.github.io/helius-web/web/#/';
+  } else {
+    swal("Ok!", "We hope we could see you soon!", "success");
+  }
+});
+    }
+
+    function openHelius2(){
+      swal({
+  title: "Helius is under development!",
+  text: "You are using a pre-launch version of the tool.\nSome features may not be available yet.",
+  icon: "warning",
+  buttons: true,
+  dangerMode: true,
+})
+.then((willDelete) => {
+  if (willDelete) {
+    window.location.href='https://heliustool.github.io/helius-web/web2/#/';
   } else {
     swal("Ok!", "We hope we could see you soon!", "success");
   }
