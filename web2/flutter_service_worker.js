@@ -3,7 +3,7 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "assets/AssetManifest.json": "d9f4ec34a8f1f36eb3b7b8c8733e248a",
+  "assets/AssetManifest.json": "db6cd44cf82da6d926c959ec0a60a74d",
 "assets/assets/fonts/cm_sans_serif_2012.ttf": "b2c533d45ade59514b04062247d96aaa",
 "assets/assets/images/0_universities_cropped.png": "56a989c346f6e28f0f384b43aa03de32",
 "assets/assets/images/1_recomendacao_tecnicas_cropped.png": "f4fff02e83d7dd62895efeb3e267bad2",
@@ -18,6 +18,7 @@ const RESOURCES = {
 "assets/assets/images/design-thinking-1.jpg": "6b0fe6a9bc3272b357706d325c47c5e0",
 "assets/assets/images/faq.png": "7dba160b80745b3201ce08d9a4cb366b",
 "assets/assets/images/faq.svg": "5678c30b41cd11b37de75173a1ab15db",
+"assets/assets/images/favorite.png": "6986813e1ecc4ca07f172a57a1ba2328",
 "assets/assets/images/happy.png": "961a8aeda70cd511efa01e9cb4be1902",
 "assets/assets/images/helius_2.png": "6e156ba2008455931a06fc0f89d7fdab",
 "assets/assets/images/helius_logo.png": "17414e4edf851b2d4dc930823ac6fcfe",
@@ -53,6 +54,11 @@ const RESOURCES = {
 "assets/assets/images/ico_per_well_rated_goal.png": "5a70ea8e33a0ae4345af0537534bdc16",
 "assets/assets/images/ico_per_well_rated_similar.png": "750af3e7d968478f1ea377f13a1628f9",
 "assets/assets/images/ico_por_espaco_trabalho.png": "5e3b7c5cf593e2b091aaa461259a5ddd",
+"assets/assets/images/ico_recomenda_favoritos.png": "82cbbf3dafe26c37f3bb8bcb183f5ba4",
+"assets/assets/images/ico_recomenda_similares.png": "1d1d702e399a454718dd20a6b259762c",
+"assets/assets/images/ico_tec_favoritos.png": "12f612fcc263a6b720a5d3597dc0a850",
+"assets/assets/images/ico_tec_similares.png": "582eb379668f8cc9ec7ce1316258c470",
+"assets/assets/images/ico_tec_todos.png": "d52f01438d80356a6df1d661d2c9822c",
 "assets/assets/images/ico_todas_tecnicas.png": "dbfaa67396118592ddba095755152ff4",
 "assets/assets/images/ok.png": "ea9f6a2916ffeea9820a105d3ea6d567",
 "assets/assets/images/onboarding0.png": "2df33040c11b48d80e0a8b91716c3f1a",
@@ -71,9 +77,9 @@ const RESOURCES = {
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"index.html": "2b4090d4c4ade7580f29311d87c80824",
-"/": "2b4090d4c4ade7580f29311d87c80824",
-"main.dart.js": "400d5427ed55a2d1003e980ca8ec9659",
+"index.html": "e59ab97de818aebc5ad1fb70299e384b",
+"/": "e59ab97de818aebc5ad1fb70299e384b",
+"main.dart.js": "25126dc25903788b1e02c3b7f820c919",
 "manifest.json": "4b5df4933d31a559d4d5f22ef45c53b8",
 "version.json": "66663c5211306423f9ed23f3d3ca2a6e"
 };
